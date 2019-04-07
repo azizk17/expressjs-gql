@@ -1,5 +1,5 @@
 {
-  "name": "express-es6-sample",
+  "name": "expressjs-graphql",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -11,9 +11,14 @@
     "watch": "nodemon --config ./nodemon.json --"
   },
   "dependencies": {
+    "apollo-server-express": "^2.4.8",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "express": "~4.16.0",
+    "graphql": "^14.2.1",
+    "graphql-tools": "^4.0.4",
+    "lodash": "^4.17.11",
+    "merge-graphql-schemas": "^1.5.8",
     "morgan": "~1.9.0",
     "rimraf": "^2.6.3"
   },
@@ -22,8 +27,14 @@
     "@babel/core": "^7.2.2",
     "@babel/node": "^7.2.2",
     "@babel/preset-env": "^7.3.1",
+    "babel-eslint": "^10.0.1",
     "eslint": "^5.13.0",
+    "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-standard": "^4.0.0",
     "nodemon": "^1.18.9"
   }
 }
