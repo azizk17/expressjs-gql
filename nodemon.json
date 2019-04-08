@@ -2,6 +2,11 @@
   "execMap": {
     "js": "babel-node"
   },
-  "watch": ["src/*", "public/*"],
-  "ext": "js, html, css, json"
+  "env": {
+    "NODE_ENV": "development",
+    "BABEL_DISABLE_CACHE": 1,
+    "MONGO_URL": "mongodb://localhost:27017/perfect-graphql-starter"
+  },
+  "watch": ["./", "public/*"],
+  "ext": "js, html, css, json, .graphql"
 }
